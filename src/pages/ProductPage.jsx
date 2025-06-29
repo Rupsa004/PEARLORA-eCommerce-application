@@ -24,22 +24,22 @@ import HC9 from '../assets/HC9.jpg';
 import HC10 from '../assets/HC10.jpg';
 import PP1 from '../assets/PP1.jpg';
 import PP2 from '../assets/PP2.jpg';
-import Shop1 from '../assets/Shop1.jpg';
-import Shop2 from '../assets/Shop2.jpg';
-import Shop3 from '../assets/Shop3.jpg';
-import Shop4 from '../assets/Shop4.jpg';
-import Shop5 from '../assets/Shop5.jpg';
-import Shop6 from '../assets/Shop6.jpg';
-import Shop7 from '../assets/Shop7.jpg';
-import Shop8 from '../assets/Shop8.jpg';
-import Shop9 from '../assets/Shop9.jpg';
-import Shop10 from '../assets/Shop10.jpg';
-import Shop11 from '../assets/Shop11.jpg';
-import Shop12 from '../assets/Shop12.jpg';
-import Shop13 from '../assets/Shop13.jpg';
-import Shop14 from '../assets/Shop14.jpg';
-import Shop15 from '../assets/Shop15.jpg';
-import Shop16 from '../assets/Shop16.jpg';
+import Shop1 from '../assets/shop1.jpg';
+import Shop2 from '../assets/shop2.jpg';
+import Shop3 from '../assets/shop3.jpg';
+import Shop4 from '../assets/shop4.jpg';
+import Shop5 from '../assets/shop5.jpg';
+import Shop6 from '../assets/shop6.jpg';
+import Shop7 from '../assets/shop7.jpg';
+import Shop8 from '../assets/shop8.jpg';
+import Shop9 from '../assets/shop9.jpg';
+import Shop10 from '../assets/shop10.jpg';
+import Shop11 from '../assets/shop11.jpg';
+import Shop12 from '../assets/shop12.jpg';
+import Shop13 from '../assets/shop13.jpg';
+import Shop14 from '../assets/shop14.jpg';
+import Shop15 from '../assets/shop15.jpg';
+import Shop16 from '../assets/shop16.jpg';
 
 
 const New = [
@@ -245,7 +245,7 @@ const New = [
       <li>Fit: Draped fit with structured  </li>
     </ul> ,   
     hasSizes: true   },
-    {id:21,title:"Red Benarasi",price:"₹2,399",color:"Red with golden",rating:4.6, image:Shop1, description: 'A regal red silk saree with golden motifs and zari border, exuding timeless elegance.',
+    {id:21,title:"Red Benarasi",price:"₹2,399",color:"Red with golden",rating:4.6, image:shop1, description: 'A regal red silk saree with golden motifs and zari border, exuding timeless elegance.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Banarasi Silk</li>
@@ -257,7 +257,7 @@ const New = [
           Saree length: 5.5 m </li>
     </ul> ,   
     hasSizes: false},
-    {id:22,title:"Salwar Kameez",price:"₹1,699",color:"Navy blue and pink",rating:4.4,image:Shop2, description: 'A classy navy kurta with pink salwar and dupatta, adorned with golden lace detailing.',
+    {id:22,title:"Salwar Kameez",price:"₹1,699",color:"Navy blue and pink",rating:4.4,image:shop2, description: 'A classy navy kurta with pink salwar and dupatta, adorned with golden lace detailing.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Cotton blend</li>
@@ -266,7 +266,7 @@ const New = [
       <li>Fit: Regular fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:23,title:"Co-Ord",price:"₹1,399",color:" Indigo and beige",rating:4.5,image:Shop3,description: 'A breezy indigo-printed co-ord set with spaghetti straps and flared pants, perfect for summer chic.',
+    {id:23,title:"Co-Ord",price:"₹1,399",color:" Indigo and beige",rating:4.5,image:shop3,description: 'A breezy indigo-printed co-ord set with spaghetti straps and flared pants, perfect for summer chic.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Handblock cotton</li>
@@ -275,7 +275,7 @@ const New = [
       <li>Fit: Relaxed fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:24,title:"Sharara Set",price:"₹2,499",color:" Emerald green",rating:4.7,image:Shop4,description: ' A statement emerald green velvet ensemble with embellished details.',
+    {id:24,title:"Sharara Set",price:"₹2,499",color:" Emerald green",rating:4.7,image:shop4,description: ' A statement emerald green velvet ensemble with embellished details.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Velvet with sequin</li>
@@ -284,7 +284,7 @@ const New = [
       <li>Fit: Relaxed fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:25,title:"Salwar Suits",price:"₹1,799",color:" Light pink kurta and pants, dark pink dupatta ",rating:4.6,image:Shop5,description: 'A subtle blush pink kurta set paired with an ornate pink Banarasi dupatta.',
+    {id:25,title:"Salwar Suits",price:"₹1,799",color:" Light pink kurta and pants, dark pink dupatta ",rating:4.6,image:shop5,description: 'A subtle blush pink kurta set paired with an ornate pink Banarasi dupatta.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Cotton silk, Banarasi silk</li>
@@ -293,7 +293,7 @@ const New = [
       <li>Fit: Straight fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:26,title:"Gown",price:"₹2,099",color:" Rust orange with golden ",rating:4.5,image:Shop6, description: 'A majestic rust-orange Banarasi gown with structured pleats and traditional gold zari weaving.',
+    {id:26,title:"Gown",price:"₹2,099",color:" Rust orange with golden ",rating:4.5,image:shop6, description: 'A majestic rust-orange Banarasi gown with structured pleats and traditional gold zari weaving.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric:  Banarasi silk </li>
@@ -302,7 +302,7 @@ const New = [
       <li>Fit: Straight fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:27,title:"Peplum Set",price:"₹2,399",color:"Teal with gold ",rating:4.6,image:Shop7,description: 'Glamorous teal peplum top and flared pants adorned with intricate gold embroidery.',
+    {id:27,title:"Peplum Set",price:"₹2,399",color:"Teal with gold ",rating:4.6,image:shop7,description: 'Glamorous teal peplum top and flared pants adorned with intricate gold embroidery.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Silk blend </li>
@@ -311,7 +311,7 @@ const New = [
       <li>Fit: Straight fit, flared pants</li>
     </ul> ,   
     hasSizes: true},
-    {id:28,title:"Regular Co-Ord",price:"₹999",color:"  Beige",rating:4.6,image:Shop8, description: 'Elegant beige long blazer with intricate embroidery paired with matching flared trousers.',
+    {id:28,title:"Regular Co-Ord",price:"₹999",color:"  Beige",rating:4.6,image:shop8, description: 'Elegant beige long blazer with intricate embroidery paired with matching flared trousers.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Linen-cotton blend</li>
@@ -320,7 +320,7 @@ const New = [
       <li>Fit: Relaxed fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:29,title:"Black Co-Ord",price:"₹1,899",color:" Black and gold",rating:4.4,image:Shop9, description: 'Black kurta with intricate mirror and threadwork, paired with plain pants.',
+    {id:29,title:"Black Co-Ord",price:"₹1,899",color:" Black and gold",rating:4.4,image:shop9, description: 'Black kurta with intricate mirror and threadwork, paired with plain pants.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric:  Georgette  </li>
@@ -329,7 +329,7 @@ const New = [
       <li>Fit: Straight fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:30,title:"Jacket",price:"₹1,099",color:" Maroon",rating:4.6,image:Shop10,description: 'A majestic rust-orange Banarasi gown with structured pleats and traditional gold zari weaving.',
+    {id:30,title:"Jacket",price:"₹1,099",color:" Maroon",rating:4.6,image:shop10,description: 'A majestic rust-orange Banarasi gown with structured pleats and traditional gold zari weaving.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric:  Handloom blend</li>
@@ -338,7 +338,7 @@ const New = [
       <li>Fit: Relaxed fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:31,title:"Suit Set",price:"₹3,399",color:" Maroon with gold ",rating:4.6,image:Shop11,description: 'Maroon bralette and flared pants paired with a matching full-length printed jacket.',
+    {id:31,title:"Suit Set",price:"₹3,399",color:" Maroon with gold ",rating:4.6,image:shop11,description: 'Maroon bralette and flared pants paired with a matching full-length printed jacket.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric:   Cotton silk blend</li>
@@ -347,7 +347,7 @@ const New = [
       <li>Fit: Relaxed fit</li>
     </ul> ,   
     hasSizes: true},
-    {id:32,title:"Sambalpuri Saree",price:"₹1,499",color:" Red, black, and off-white",rating:4.9,image:Shop12,description: 'Traditional red and black saree with intricate ethnic patterns .',
+    {id:32,title:"Sambalpuri Saree",price:"₹1,499",color:" Red, black, and off-white",rating:4.9,image:shop12,description: 'Traditional red and black saree with intricate ethnic patterns .',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric:  Handloom cotton  </li>
@@ -357,7 +357,7 @@ const New = [
       <li>Saree length: 6.5 m </li>
     </ul> ,   
     hasSizes: false},
-    { id: 33, title: "Tunic", price: "₹999",color:"Mustard Yellow", rating: 4.8, image: Shop13,description: ' A flowy mustard long tunic featuring colorful ethnic embroidery and a deep V neckline .',
+    { id: 33, title: "Tunic", price: "₹999",color:"Mustard Yellow", rating: 4.8, image: shop13,description: ' A flowy mustard long tunic featuring colorful ethnic embroidery and a deep V neckline .',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric:  Cotton gauze  </li>
@@ -366,7 +366,7 @@ const New = [
       <li>Fit:Relaxed fit</li>
     </ul> ,   
     hasSizes: true  },
-    { id: 34, title: "Cropped Shirt", price: "₹599", color:"Lilac and Gold ",rating: 4.9, image: Shop14, description: 'A cropped lilac shirt featuring a double-breasted collar and golden brocade border on the hem and sleeves .',
+    { id: 34, title: "Cropped Shirt", price: "₹599", color:"Lilac and Gold ",rating: 4.9, image: shop14, description: 'A cropped lilac shirt featuring a double-breasted collar and golden brocade border on the hem and sleeves .',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Cotton silk </li>
@@ -375,7 +375,7 @@ const New = [
       <li>Fit: Cropped fit </li>
     </ul> ,   
     hasSizes: true  },
-    { id: 35, title: "Flared Lehenga", price: "₹2,699", color:"Ivory and Red", rating: 4.7, image: Shop15, description: 'Traditional ivory peplum kurta with red thread embroidery and gota tassels, styled with a coordinating lehenga skirt and red dupatta.',
+    { id: 35, title: "Flared Lehenga", price: "₹2,699", color:"Ivory and Red", rating: 4.7, image: shop15, description: 'Traditional ivory peplum kurta with red thread embroidery and gota tassels, styled with a coordinating lehenga skirt and red dupatta.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Cotton silk </li>
@@ -384,7 +384,7 @@ const New = [
       <li>Fit: Structured peplum top with a flared lehenga </li>
     </ul> ,   
     hasSizes: true  },
-    { id: 36, title: "Peplum Top", price: "₹699", color:"Fuchsia ", rating: 4.6, image: Shop16, description: 'A contemporary sleeveless kurta Top.',
+    { id: 36, title: "Peplum Top", price: "₹699", color:"Fuchsia ", rating: 4.6, image: shop16, description: 'A contemporary sleeveless kurta Top.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Silk blend </li>
