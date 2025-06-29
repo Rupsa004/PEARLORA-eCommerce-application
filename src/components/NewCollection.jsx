@@ -48,7 +48,7 @@ const NewCollection=()=>{
       {New.map((item, index) => (
         <a
           key={index}
-          href={`/NewCollection/${item.id}`}
+          href={`/newCollection/${item.id}`}
           className="snap-center shrink-0 w-[200px] md:w-[220px] bg-white rounded-lg shadow-md hover:scale-90 hover:shadow-2xl cursor-pointer"
         >
           <img
