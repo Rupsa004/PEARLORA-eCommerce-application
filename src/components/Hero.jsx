@@ -36,7 +36,7 @@ const Hero = () => {
               </div>
               <div className="w-full md:w-1/2 text-center md:text-left px-4 md:px-8">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl text-black font-bold mb-4">
-                  Welcome to <span className="font-imperial text-4xl sm:text-5xl md:text-6xl">PERLORA~</span>
+                  Welcome to <span className="font-imperial text-4xl sm:text-5xl md:text-6xl">PEARLORA~</span>
                 </h1>
                 <p className="text-base sm:text-lg mb-4 sm:mb-6 text-gray-600">Let fashion reign</p>
                 <button className="px-5 sm:px-6 py-2 text-sm sm:text-base bg-black text-white hover:bg-gray-800 transition">
