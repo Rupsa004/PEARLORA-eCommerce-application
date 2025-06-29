@@ -4,14 +4,14 @@ import Related from '../components/Related';
 import { Star } from 'lucide-react';
 
 
-import newC1 from '../assets/newC1.jpg';
-import newC2 from '../assets/newC2.jpg';
-import newC3 from '../assets/newC3.jpg';
-import newC4 from '../assets/newC4.jpg';
-import newC5 from '../assets/newC5.jpg';
-import newC6 from '../assets/newC6.jpg';
-import newC7 from '../assets/newC7.jpg';
-import newC8 from '../assets/newC8.jpg';
+import newc1 from '../assets/newc1.jpg';
+import newc2 from '../assets/newc2.jpg';
+import newc3 from '../assets/newc3.jpg';
+import newc4 from '../assets/newc4.jpg';
+import newc5 from '../assets/newc5.jpg';
+import newc6 from '../assets/newc6.jpg';
+import newc7 from '../assets/newc7.jpg';
+import newc8 from '../assets/newc8.jpg';
 import HC1 from '../assets/HC1.jpg'; 
 import HC2 from '../assets/HC2.jpg';
 import HC3 from '../assets/HC3.jpg';
