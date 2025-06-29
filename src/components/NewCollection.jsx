@@ -1,39 +1,38 @@
 import { Link } from 'react-router-dom';
-import NewC1 from '../assets/NewC1.jpg';
-import NewC2 from '../assets/NewC2.jpg';
-import NewC3 from '../assets/NewC3.jpg';
-import NewC4 from '../assets/NewC4.jpg';
-import NewC5 from '../assets/NewC5.jpg';
-import NewC6 from '../assets/NewC6.jpg';
-import NewC7 from '../assets/NewC7.jpg';
-import NewC8 from '../assets/NewC8.jpg';
+import newC1 from '../assets/newC1.jpg';
+import newC2 from '../assets/newC2.jpg';
+import newC3 from '../assets/newC3.jpg';
+import newC4 from '../assets/newC4.jpg';
+import newC5 from '../assets/newC5.jpg';
+import newC6 from '../assets/newC6.jpg';
+import newC7 from '../assets/newC7.jpg';
+import newC8 from '../assets/newC8.jpg';
 
 
 const New=[
     {
-        id:1,  image:NewC1,  title:'Floral Fusion Suit',    
+        id:1,  image:newC1,  title:'Floral Fusion Suit',    
     },
     {
-        id:2,  image:NewC2,  title:'Pastel Flower Saree',
+        id:2,  image:newC2,  title:'Pastel Flower Saree',
     },
     {
-        id:3,  image:NewC3,  title:'Lotus Pink Suit',
+        id:3,  image:newC3,  title:'Lotus Pink Suit',
     },
     {
-        id:4,  image:NewC4,  title:' Indo Power Suit',
+        id:4,  image:newC4,  title:' Indo Power Suit',
     },
     {
-        id:5,  image:NewC5,  title:'Shirt Style Saree',
+        id:5,  image:newC5,  title:'Shirt Style Saree',
     },
     {
-        id:6,  image:NewC6,  title:' Boho Long Shrug Look',
+        id:6,  image:newC6,  title:' Boho Long Shrug Look',
     },
     {
-        id:7,  image:NewC7,  title:'Embroidered Sharara',
+        id:7,  image:newC7,  title:'Embroidered Sharara',
     },
     {
-        
-        id:8,  image:NewC8,  title:'Elegant Simplicity Gown',
+        id:8,  image:newC8,  title:'Elegant Simplicity Gown',
     },
 ];
 

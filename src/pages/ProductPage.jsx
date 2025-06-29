@@ -4,14 +4,14 @@ import Related from '../components/Related';
 import { Star } from 'lucide-react';
 
 
-import NewC1 from '../assets/NewC1.jpg';
-import NewC2 from '../assets/NewC2.jpg';
-import NewC3 from '../assets/NewC3.jpg';
-import NewC4 from '../assets/NewC4.jpg';
-import NewC5 from '../assets/NewC5.jpg';
-import NewC6 from '../assets/NewC6.jpg';
-import NewC7 from '../assets/NewC7.jpg';
-import NewC8 from '../assets/NewC8.jpg';
+import newC1 from '../assets/newC1.jpg';
+import newC2 from '../assets/newC2.jpg';
+import newC3 from '../assets/newC3.jpg';
+import newC4 from '../assets/newC4.jpg';
+import newC5 from '../assets/newC5.jpg';
+import newC6 from '../assets/newC6.jpg';
+import newC7 from '../assets/newC7.jpg';
+import newC8 from '../assets/newC8.jpg';
 import HC1 from '../assets/HC1.jpg'; 
 import HC2 from '../assets/HC2.jpg';
 import HC3 from '../assets/HC3.jpg';
@@ -44,7 +44,7 @@ import shop16 from '../assets/shop16.jpg';
 
 const New = [
   {  id:1,
-    image: NewC1, title: 'Floral Fusion Suit', price: '₹1,499', color: 'Peach', rating: 4.6, description: 'Elegant floral embroidery on pastel tone.',
+    image: newC1, title: 'Floral Fusion Suit', price: '₹1,499', color: 'Peach', rating: 4.6, description: 'Elegant floral embroidery on pastel tone.',
     details: 
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Chiffon</li>
@@ -54,7 +54,7 @@ const New = [
     </ul> , 
     hasSizes: true },
   { id:2,
-    image: NewC2, title: 'Pastel Flower Saree', price: '₹1,999', color: 'Pastel Pink',rating: 4.5, description: 'Soft chiffon saree with floral design.', 
+    image: newC2, title: 'Pastel Flower Saree', price: '₹1,999', color: 'Pastel Pink',rating: 4.5, description: 'Soft chiffon saree with floral design.', 
     details: 
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Organza</li>
@@ -66,7 +66,7 @@ const New = [
     </ul> , 
     hasSizes: false },
   {  id:3,
-    image: NewC3,title: 'Lotus Pink Suit', price: '₹1,085', color: 'Lotus Pink',rating: 4.4, description: 'Festive suit in pink with lotus patterns.', 
+    image: newC3,title: 'Lotus Pink Suit', price: '₹1,085', color: 'Lotus Pink',rating: 4.4, description: 'Festive suit in pink with lotus patterns.', 
     details: 
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Raw silk</li>
@@ -76,7 +76,7 @@ const New = [
     </ul> , 
     hasSizes: true },
   { id:4,
-    image: NewC4, title: 'Indo Power Suit', price: '₹2,599', color: 'Maroon',rating: 4.6, description: 'Indo-western suit perfect for power dressing.',
+    image: newC4, title: 'Indo Power Suit', price: '₹2,599', color: 'Maroon',rating: 4.6, description: 'Indo-western suit perfect for power dressing.',
     details: 
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Cotton silk, Beads,Embroidered,Thread</li>
@@ -86,7 +86,7 @@ const New = [
     </ul> ,  
     hasSizes: true },
   { id:5, 
-    image: NewC5, title: 'Shirt Style Saree', price: '₹1,699', color: 'Mustard',rating: 4.4, description: 'Bold shirt-style paired with traditional saree.', 
+    image: newC5, title: 'Shirt Style Saree', price: '₹1,699', color: 'Mustard',rating: 4.4, description: 'Bold shirt-style paired with traditional saree.', 
     details: 
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric:  Cotton & Acrylic</li>
@@ -96,7 +96,7 @@ const New = [
     </ul> , 
     hasSizes: false },
   { id:6,
-    image: NewC6, title: 'Boho Long Shrug Look', price: '₹2,049', color: 'Ivory',rating: 4.3, description: 'Bohemian vibes with this long shrug and inner wear.',
+    image: newC6, title: 'Boho Long Shrug Look', price: '₹2,049', color: 'Ivory',rating: 4.3, description: 'Bohemian vibes with this long shrug and inner wear.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Cotton</li>
@@ -106,7 +106,7 @@ const New = [
     </ul> ,   
     hasSizes: true },
   { id:7,
-    image: NewC7, title: 'Embroidered Sharara', price: '₹2,749', color: 'Navy Blue',rating: 4.7, description: 'Heavy embroidery with flare for occasions.',
+    image: newC7, title: 'Embroidered Sharara', price: '₹2,749', color: 'Navy Blue',rating: 4.7, description: 'Heavy embroidery with flare for occasions.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Paper silk</li>
@@ -116,7 +116,7 @@ const New = [
     </ul> , 
      hasSizes: true },
   { id:8,
-    image: NewC8, title: 'Elegant Simplicity Gown', price: '₹2,199', color: 'Mustard Yellow',rating: 4.8, description: 'Simple yet elegant evening gown.',
+    image: newC8, title: 'Elegant Simplicity Gown', price: '₹2,199', color: 'Mustard Yellow',rating: 4.8, description: 'Simple yet elegant evening gown.',
     details:
     <ul className='list-disc pl-5 text-sm text-gray-600'>
       <li>Fabric: Benarasi</li>
