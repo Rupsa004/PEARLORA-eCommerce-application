@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center font-bold text-lg tracking-widest mt-20" style={{ fontFamily: "Urbanist" }}>
-          PEALROA~
+          PEARLORA~
         </div>
 
       <div className="flex flex-col items-end space-y-2 text-right">
