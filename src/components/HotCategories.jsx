@@ -27,22 +27,29 @@ const New=[
 const HotCategories=()=>{
     const navigate = useNavigate();
     return(
-        <section className="w-full py-10 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Hot Categories</h2>
+       <section className="w-full py-10 text-center">
+  <h2 className="text-3xl md:text-4xl font-bold mb-4">Hot Categories</h2>
 
-         <div className="grid grid-cols-2 md:grid-cols-5 gap-y-2 px-2 md:px-4">
-        {New.map((item, index) => (
-          <div key={index}
-          onClick={() => navigate('/new-in')}
-          className="bg-white rounded-lg p-4 w-[240px] mx-auto flex flex-col items-center justify-center shadow-lg 
-          hover:scale-95 hover:shadow-2xl  transition-shadow duration-300 cursor-pointer">
-            <img src={item.image} alt={item.title} className="w-full h-[240px] object-cover mb-2 rounded-lg"/>
-            <p className="text-base font-semibold">{item.title}</p>
-            <p className="text-sm text-gray-500">{item.category}</p>
-          </div>
-        ))}
-        </div>
-        </section>
+  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4">
+    {New.map((item, index) => (
+      <div
+        key={index}
+        onClick={() => navigate('/new-in')}
+        className="bg-white rounded-lg p-4 w-full sm:w-[200px] mx-auto flex flex-col items-center justify-center shadow-lg 
+        hover:scale-95 hover:shadow-2xl transition-shadow duration-300 cursor-pointer"
+      >
+        <img
+          src={item.image}
+          alt={item.title}
+          className="w-full h-[240px] object-cover mb-2 rounded-lg"
+        />
+        <p className="text-base font-semibold">{item.title}</p>
+        <p className="text-sm text-gray-500">{item.category}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
     );
 };
 export default HotCategories;
