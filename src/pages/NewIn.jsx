@@ -74,12 +74,12 @@ const NewIn = () => {
       
       <div className="flex px-6 py-8 gap-6 justify-center">
         
-        <main className="w-1/2">
+        <main className="w-full max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-bold mb-10 text-center">Discover Our Newest Collection</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-x-2">
             {products.map((product) => (
               <div key={product.id}className="relative rounded-lg overflow-hidden shadow-lg 
-                hover:scale-95 hover:shadow-2xl  transition-shadow duration-300 cursor-pointer">  
+                hover:scale-95 hover:shadow-2xl  transition-shadow duration-300 cursor-pointer w-full max-w-[240px]">  
                 <button
                 onClick={(e)=>{
                 e.preventDefault();
@@ -95,7 +95,7 @@ const NewIn = () => {
               </button>
 
               <Link to={`/product/${product.id}`}>
-                <img src={product.image} alt={product.title} className="w-full h-[360px] object-cover" />
+                <img src={product.image} alt={product.title} className="w-full h-72 object-cover rounded-t-lg" />
                 <div className="p-4">
                   <h3 className="font-semibold">{product.title}</h3>
                   <p className="text-sm text-gray-500">{product.category}</p>
