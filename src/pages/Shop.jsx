@@ -3,22 +3,22 @@ import { Star, Heart } from "lucide-react";
 import { useEffect, useState } from 'react';
 
 
-import shop1 from '../assets/Shop1.jpg';
-import shop2 from '../assets/Shop2.jpg';
-import shop3 from '../assets/Shop3.jpg';
-import shop4 from '../assets/Shop4.jpg';
-import shop5 from '../assets/Shop5.jpg';
-import shop6 from '../assets/Shop6.jpg';
-import shop7 from '../assets/Shop7.jpg';
-import shop8 from '../assets/Shop8.jpg';
-import shop9 from '../assets/Shop9.jpg';
-import shop10 from '../assets/Shop10.jpg';
-import shop11 from '../assets/Shop11.jpg';
-import shop12 from '../assets/Shop12.jpg';
-import shop13 from '../assets/Shop13.jpg';
-import shop14 from '../assets/Shop14.jpg';
-import shop15 from '../assets/Shop15.jpg';
-import shop16 from '../assets/Shop16.jpg';
+import shop1 from '../assets/shop1.jpg';
+import shop2 from '../assets/shop2.jpg';
+import shop3 from '../assets/shop3.jpg';
+import shop4 from '../assets/shop4.jpg';
+import shop5 from '../assets/shop5.jpg';
+import shop6 from '../assets/shop6.jpg';
+import shop7 from '../assets/shop7.jpg';
+import shop8 from '../assets/shop8.jpg';
+import shop9 from '../assets/shop9.jpg';
+import shop10 from '../assets/shop10.jpg';
+import shop11 from '../assets/shop11.jpg';
+import shop12 from '../assets/shop12.jpg';
+import shop13 from '../assets/shop13.jpg';
+import shop14 from '../assets/shop14.jpg';
+import shop15 from '../assets/shop15.jpg';
+import shop16 from '../assets/shop16.jpg';
 
 
 const products = [
