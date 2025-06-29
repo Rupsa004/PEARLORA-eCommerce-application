@@ -35,7 +35,7 @@ const products = [
   { id: 31, title: "Suit Set", price: "₹3,399", rating: 4.6, image: shop11, category: "Kurta Suit Sets" },
   { id: 32, title: "Sambalpuri Saree", price: "₹1,499", rating: 4.9, image: shop12, category: "Sarees" },
   { id: 33, title: "Tunic", price: "₹999", rating: 4.8, image: shop13, category: "Tunics & Bottom wear" },
-  { id: 34, title: "Cropped Shirt", price: "₹599", rating: 4.9, image: shop14, category: "Shirt" },
+  { id: 34, title: "Cropped Shirt", price: "₹599", rating: 4.9, image: shop14, category: "Shirts" },
   { id: 35, title: "Flared Lehenga", price: "₹2,699", rating: 4.7, image: shop15, category: "Lahenga-Choli" },
   { id: 36, title: "Peplum Top", price: "₹699", rating: 4.6, image: shop16, category: "Tops" },
 
